@@ -8,7 +8,3 @@ baseUrl = "https://courses.letskodeit.com/practice"
 driver = webdriver.Chrome()
 driver.maximize_window()
 driver.get(baseUrl)
-
-y = SeleniumDriver.getvalue(driver, '//*[@id="opentab"]', id)
-
-print(y)
